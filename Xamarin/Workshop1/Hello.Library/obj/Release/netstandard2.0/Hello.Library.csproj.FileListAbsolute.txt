@@ -1,0 +1,9 @@
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\bin\Release\netstandard2.0\Hello.Library.deps.json
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\bin\Release\netstandard2.0\Hello.Library.dll
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\bin\Release\netstandard2.0\Hello.Library.pdb
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\obj\Release\netstandard2.0\Hello.Library.csprojAssemblyReference.cache
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\obj\Release\netstandard2.0\Hello.Library.csproj.CoreCompileInputs.cache
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\obj\Release\netstandard2.0\Hello.Library.AssemblyInfoInputs.cache
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\obj\Release\netstandard2.0\Hello.Library.AssemblyInfo.cs
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\obj\Release\netstandard2.0\Hello.Library.dll
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.Library\obj\Release\netstandard2.0\Hello.Library.pdb

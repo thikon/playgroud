@@ -1,0 +1,6 @@
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.WebApi\obj\Debug\netcoreapp2.1\Hello.WebApi.csprojAssemblyReference.cache
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.WebApi\obj\Debug\netcoreapp2.1\Hello.WebApi.csproj.CoreCompileInputs.cache
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.WebApi\obj\Debug\netcoreapp2.1\Hello.WebApi.RazorAssemblyInfo.cache
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.WebApi\obj\Debug\netcoreapp2.1\Hello.WebApi.RazorAssemblyInfo.cs
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.WebApi\obj\Debug\netcoreapp2.1\Hello.WebApi.AssemblyInfoInputs.cache
+C:\Users\PWNotebook01\source\xamarin_workshop\Workshop1\Hello.WebApi\obj\Debug\netcoreapp2.1\Hello.WebApi.AssemblyInfo.cs

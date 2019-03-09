@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Workshop1"
+             x:Class="Workshop1.MainPage"
+             Title="Main Page">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Favorite" 
+                     x:Name="favoriteButton"/>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout Padding="10">
+        <Label Text="Hello world"
+               x:Name="myLabel"/>
+        <Entry Placeholder="input text here" 
+               x:Name="myEntry"/>
+        <Button Text="Ok"
+                x:Name="myButton"/>
+
+        <Image Source="https://f.ptcdn.info/775/059/000/pf6nbnh1bgi1PfS6hyO-o.jpg"
+               HeightRequest="100"/>
+
+        <ListView x:Name="myListView">
+            <ListView.ItemTemplate >
+                <DataTemplate>
+                    <!--<ImageCell Text="{Binding Path=Name}" 
+                              Detail="{Binding Path=Id,StringFormat='CustomerNo {0}'}"
+                              ImageSource="https://www.picz.in.th/images/2018/08/10/BbI7Nv.jpg"/>-->
+
+                    <ViewCell>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <!-- 0 -->
+                            <Image Source="https://www.picz.in.th/images/2018/08/10/BbI7Nv.jpg" />
+                            <!-- 1 -->
+                            <Label Text="{Binding Path=Name}"
+                                   Grid.Column="1"/>
+
+                        </Grid>
+                    </ViewCell>
+                    
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
