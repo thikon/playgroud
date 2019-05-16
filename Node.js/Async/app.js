@@ -17,7 +17,6 @@ async function longTimeHello(){
 }
 
 /* basic calling */
-
 // function main(){
 //     let a = sayHello();
 //     let b = delaySayHello();
@@ -27,7 +26,6 @@ async function longTimeHello(){
 // }
 
 /* calling solve could not extract resolve(object) for callback */
-
 // function main(){
 //     let a = sayHello();
 //     delaySayHello().then( (value) =>{
@@ -38,16 +36,15 @@ async function longTimeHello(){
 // }
 
 /* main calling top to down */
+// async function main(){
+//     let a = sayHello();
+//     let b = await delaySayHello(); // <- with promise inside function
+//     let c = await longTimeHello(); // <- without promise function
 
-async function main(){
-    let a = sayHello();
-    let b = await delaySayHello(); // <- with promise inside function
-    let c = await longTimeHello(); // <- without promise function
-
-    console.log(a)
-    console.log(b)
-    console.log(c)
-}
+//     console.log(a)
+//     console.log(b)
+//     console.log(c)
+// }
 
 //main();
 
@@ -56,5 +53,4 @@ async function parallelRun(){
     let a = await Promise.all([delaySayHello(),longTimeHello()]);
     console.log(a);
 }
-
 parallelRun();
